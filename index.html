@@ -27,44 +27,63 @@
         </nav>
     </header>
     <main>
+        <br>
         <section id="Home">
         <h2>Home</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora natus deserunt illum beatae aliquid pariatur qui dignissimos non veniam tenetur repudiandae aut repellat quia aliquam, aspernatur laudantium reiciendis, molestias corporis.
         </p>
+        <br>
         <section id="About">
         <h2>About</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, delectus, non nostrum ut perspiciatis accusantium itaque velit inventore voluptates libero, recusandae id pariatur cumque omnis beatae voluptatibus. Voluptates, dolorum sapiente!
         </p>
+        <br>
         </section>
         <section id="Contact Us">
             <h2>Contact Us</h2>
             <form>
-                <div>
-                    <label>Name:</label>
-                </div>
-                    <input type="text" name="Name" id="username-field" class="login-form-field" placeholder="Enter Your Name" required>
-                </div>
-                <div>
-                    <label>Surname:</label>
-                </div>
-                    <input type="text" name="Surname" id="username-field" class="login-form-field"placeholder="Enter Your Surname" required>
-                </div>
-                <div>
-                    <label>Message:</label>
-                </div>
-                    <input type="text" name="Type A Message" placeholder="Type A Message">
-                </div>
-                <div>
-                    <label>Email:</label>
-                </div>
-                <div>
-                    <input type="text" name="Email" id="username-field" class="login-form-field" placeholder="Enter Your Email" required >
-                </div>
-                <div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
+                <div class="container">
+                    <form action="/action_page.php">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="fname">Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="fname" name="name" placeholder="Enter your name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname">Surname</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="lname" name="surname" placeholder="Enter your surname..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="country">Email</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="Email" name="email" placeholder="Enter your email">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="message">Message</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="message" name="message" placeholder="Write a message" style="height:200px"></textarea>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                      <input type="submit" value="Submit">
+                    </div>
+                    </form>
+                  </div>
             </form>
         </section>
     </main>
