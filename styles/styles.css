@@ -1,5 +1,5 @@
 * {
-    margin: 10px;
+    margin: 0px;
     padding: 5px;
 }
 
@@ -21,18 +21,17 @@ main {
     background-color: antiquewhite;
     top: 100px;
     bottom: 100px;
-    text-align: left;
 }
 
 #logo{
     width: 5em;
     height: 5em;
     margin-bottom: 9px;
-    margin-top: -39px;
+    margin-top: -10px;
 }
 /* navigation element*/
 nav {
-    margin-left: 20px;
+    margin-left: 0px;
 }
 ul {
     display: inline-flex;
@@ -49,7 +48,6 @@ form {
 a {
     color:antiquewhite;
 }
-
 a:hover {
     color: antiquewhite;
 }
