@@ -21,6 +21,7 @@ main {
     background-color: antiquewhite;
     top: 100px;
     bottom: 100px;
+    text-align: left;
 }
 
 #logo{
@@ -43,7 +44,7 @@ li {
 }
 
 form {
-    text-align:left;
+    text-align:center;
 }
 a {
     color:antiquewhite;
