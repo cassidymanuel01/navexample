@@ -1,0 +1,56 @@
+* {
+    margin: 10px;
+    padding: 5px;
+}
+
+header{
+height: 100px;
+min-width:100%;
+}
+
+/*header and footer*/
+header,footer {
+    height: 100px;
+    min-width:100%;
+    background-color: black;
+    color: antiquewhite;
+}
+
+main {
+    min-height: 100vh;
+    background-color: antiquewhite;
+    top: 100px;
+    bottom: 100px;
+}
+
+#logo{
+    width: 5em;
+    height: 5em;
+    margin-bottom: 9px;
+    margin-top: -39px;
+}
+/* navigation element*/
+nav {
+    margin-left: 20px;
+}
+ul {
+    display: inline-flex;
+}
+/* list*/
+li {
+    list-style:none;
+    padding-right: 10px;
+}
+
+
+a {
+    color:antiquewhite;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+a:visited {
+    color:antiquewhite;
+}
+
