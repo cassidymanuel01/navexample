@@ -42,7 +42,9 @@ li {
     padding-right: 10px;
 }
 
-
+form {
+    text-align:left;
+}
 a {
     color:antiquewhite;
 }
